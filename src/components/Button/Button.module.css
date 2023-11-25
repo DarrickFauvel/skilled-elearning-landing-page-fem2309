@@ -1,0 +1,51 @@
+@import url("@/styles/variables.css");
+
+.button {
+  font-size: var(--font-size-button);
+  color: var(--cname-white);
+  padding-block: 10px;
+  padding-inline: 1.5em;
+  border-radius: 28px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.default {
+  background-color: var(--cname-space-cadet);
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: var(--cname-ultra-violet);
+  }
+}
+
+.primary {
+  background-image: var(--bg-grad1);
+}
+
+.secondary {
+  background: var(--bg-grad2);
+}
+
+.primary,
+.secondary {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1; /* Ensure it's above the button content */
+    background: rgba(255, 255, 255, 0);
+    transition: background 0.3s ease;
+  }
+
+  &:hover::before {
+    background: rgba(255, 255, 255, 0.5); /* White with 50% transparency */
+  }
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+}

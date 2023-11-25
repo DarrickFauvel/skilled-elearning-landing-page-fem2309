@@ -1,0 +1,49 @@
+:root {
+  /* Typography */
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --font-size-h1: clamp(2.5rem, 2.148rem + 1.502vw, 3.5rem); // 40px-56px
+  --font-size-h2: clamp(1.5rem, 1.324rem + 0.751vw, 2rem); // 24px-32px
+  --font-size-h3: clamp(1.25rem, 1.162rem + 0.376vw, 1.5rem); // 20px-24px
+  --font-size-body: clamp(1rem, 0.956rem + 0.188vw, 1.125rem); // 16p-18px
+  --font-size-button: clamp(1rem, 0.956rem + 0.188vw, 1.125rem); // 16p-18px
+
+  /* Color */
+  --cname-ultra-violet: #666ca3;
+  --cname-space-cadet: #13183f;
+  --cname-cool-gray: #83869a;
+  --cname-french-rose: #f74780;
+  --cname-carnation-pink: #ffa7c3;
+  --cname-white: #ffffff;
+  --bg-grad1: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+  --bg-grad2: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: 800;
+}
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: 800;
+  line-height: 1.33;
+}
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: 800;
+}
+
+p {
+  font-weight: 500;
+}
