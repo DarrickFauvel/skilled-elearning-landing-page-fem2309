@@ -1,4 +1,15 @@
 /* App */
 .app-container {
+  position: relative;
+  z-index: 1;
   padding: 16px;
+  background-color: var(--cname-almost-white);
+
+  @media (min-width: 768px) {
+    padding-inline: 38px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-inline: 165px;
+  }
 }

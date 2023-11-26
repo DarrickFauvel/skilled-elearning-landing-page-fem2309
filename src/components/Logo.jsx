@@ -1,12 +1,10 @@
 /* eslint-disable react/prop-types */
-import logoDark from "@/assets/logo-dark.svg"
-import logoLight from "@/assets/logo-light.svg"
 
-const Logo = ({ variant }) => {
+const Logo = ({ variant = "dark" }) => {
   return (
     <img
       className="logo"
-      src={variant === "dark" ? logoDark : logoLight}
+      src={`/assets/logos/logo-${variant}.svg`}
       alt="Dark Logo"
     />
   )

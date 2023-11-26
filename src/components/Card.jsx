@@ -4,7 +4,7 @@ const Card = ({ course }) => {
 
   return (
     <article className="card">
-      <img src={`/assets/${icon}`} alt={title} />
+      <img src={`/assets/icons/${icon}`} alt={title} />
       <h3>{title}</h3>
       <p>{text}</p>
       <a className="link" href={url}>

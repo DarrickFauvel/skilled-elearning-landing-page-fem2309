@@ -9,6 +9,14 @@
     align-items: center;
     padding-block: 36px;
     padding-inline: 16px;
+
+    @media (min-width: 768px) {
+      padding-inline: 40px;
+    }
+
+    @media (min-width: 1440px) {
+      padding-inline: 165px;
+    }
   }
 
   & .copyright {
