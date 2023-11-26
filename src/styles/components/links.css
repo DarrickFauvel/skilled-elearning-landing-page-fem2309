@@ -1,0 +1,11 @@
+/* Links */
+.link {
+  text-decoration: none;
+  color: var(--cname-french-rose);
+  font-weight: 700;
+  transition: 0.3s;
+
+  &:hover {
+    color: var(--cname-carnation-pink);
+  }
+}

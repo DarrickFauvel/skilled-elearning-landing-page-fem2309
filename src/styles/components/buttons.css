@@ -1,13 +1,13 @@
-@import url("@/styles/variables.css");
-
+/* Button */
 .button {
   font-size: var(--font-size-button);
   color: var(--cname-white);
-  padding-block: 10px;
-  padding-inline: 1.5em;
+  padding-block: 14px;
+  padding-inline: 24px;
   border-radius: 28px;
   text-decoration: none;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .default {
@@ -21,6 +21,8 @@
 
 .primary {
   background-image: var(--bg-grad1);
+  padding-inline: 37px;
+  padding-block: 18px;
 }
 
 .secondary {

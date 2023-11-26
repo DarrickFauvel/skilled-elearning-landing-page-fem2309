@@ -1,0 +1,11 @@
+:root {
+  --cname-ultra-violet: #666ca3;
+  --cname-space-cadet: #13183f;
+  --cname-cool-gray: #83869a;
+  --cname-french-rose: #f74780;
+  --cname-carnation-pink: #ffa7c3;
+  --cname-white: #ffffff;
+
+  --bg-grad1: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+  --bg-grad2: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}

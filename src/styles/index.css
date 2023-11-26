@@ -1,0 +1,20 @@
+@layer base, theme, layouts, components, utilities;
+
+/* Base */
+@import "@/vendor/styles/normalize.css" layer(base);
+@import "@/styles/base/base.css" layer(base);
+@import "@/styles/base/theme.css" layer(theme);
+@import "@/styles/base/typography.css" layer(theme);
+@import "@/styles/base/utilities.css" layer(utilities);
+
+/* Layouts */
+@import "@/styles/components/app.css" layer(layouts);
+
+/* Components */
+@import "@/styles/components/header.css" layer(components);
+@import "@/styles/components/logo.css" layer(components);
+@import "@/styles/components/hero.css" layer(components);
+@import "@/styles/components/cards.css" layer(components);
+@import "@/styles/components/buttons.css" layer(components);
+@import "@/styles/components/links.css" layer(components);
+@import "@/styles/components/footer.css" layer(components);

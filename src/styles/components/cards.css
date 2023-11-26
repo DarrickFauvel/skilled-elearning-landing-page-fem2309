@@ -1,0 +1,43 @@
+/* Cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  & h2 {
+    background: var(--bg-grad1);
+    padding-block: 24px;
+    padding-bottom: 32px;
+    padding-inline: 28px;
+    border-radius: 10px;
+    color: var(--cname-white);
+  }
+}
+
+/* Card */
+.card {
+  position: relative;
+  background-color: var(--cname-white);
+  padding-block: 32px;
+  padding-top: 56px;
+  padding-inline: 28px;
+  border-radius: 10px;
+
+  & img {
+    position: absolute;
+    top: -24px;
+    width: 56px;
+  }
+
+  & h3 {
+  }
+
+  & p {
+    margin-top: 16px;
+  }
+
+  & a {
+    display: inline-block;
+    margin-top: 24px;
+  }
+}

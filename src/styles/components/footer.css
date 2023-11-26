@@ -1,0 +1,19 @@
+/* Footer */
+.footer {
+  margin-top: 80px;
+
+  & div {
+    background-color: var(--cname-space-cadet);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 36px;
+    padding-inline: 16px;
+  }
+
+  & .copyright {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0.1em;
+  }
+}
