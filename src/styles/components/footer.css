@@ -1,22 +1,26 @@
 /* Footer */
 .footer {
   margin-top: 80px;
+  background-color: var(--cname-space-cadet);
 
-  & div {
-    background-color: var(--cname-space-cadet);
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-block: 36px;
-    padding-inline: 16px;
 
-    @media (min-width: 768px) {
+    /* @media (min-width: 768px) {
       padding-inline: 40px;
     }
 
     @media (min-width: 1440px) {
       padding-inline: 165px;
-    }
+    } */
   }
 
   & .copyright {

@@ -1,10 +1,22 @@
 /* Header */
 .header {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: 3;
+  padding-top: 16px;
+
+  @media (min-width: 768px) {
+    padding-top: 24px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 30px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   & img {
     width: 89px;

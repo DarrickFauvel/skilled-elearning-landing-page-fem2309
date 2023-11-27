@@ -18,3 +18,4 @@
 @import "@/styles/components/buttons.css" layer(components);
 @import "@/styles/components/links.css" layer(components);
 @import "@/styles/components/footer.css" layer(components);
+@import "@/styles/components/nameplate.css" layer(components);

@@ -22,7 +22,6 @@ const getSrcSet = (deviceName) => {
       srcSet = source.sources.join(", ")
     }
   })
-  console.log(srcSet)
   return srcSet
 }
 
@@ -43,6 +42,7 @@ const Hero = () => {
       <picture className="heroImage">
         <source media="(min-width: 1440px)" srcSet={getSrcSet("desktop")} />
         <source media="(min-width: 768px)" srcSet={getSrcSet("tablet")} />
+        <source srcSet={getSrcSet("mobile")} />
         <img
           srcSet={getSrcSet("mobile")}
           src="/assets/images/image-hero-mobile.png"

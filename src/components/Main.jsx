@@ -3,10 +3,11 @@ import Hero from "./Hero"
 
 const Main = () => {
   return (
-    <main>
-      <Hero />
-
-      <Cards />
+    <main className="main">
+      <div className="container">
+        <Hero />
+        <Cards />
+      </div>
     </main>
   )
 }

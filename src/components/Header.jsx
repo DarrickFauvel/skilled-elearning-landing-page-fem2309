@@ -4,9 +4,10 @@ import Logo from "./Logo"
 const Header = () => {
   return (
     <header className="header">
-      <Logo variant="dark" />
-
-      <Button link="#">Get Started</Button>
+      <div className="container">
+        <Logo variant="dark" />
+        <Button link="#">Get Started</Button>
+      </div>
     </header>
   )
 }

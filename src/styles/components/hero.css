@@ -8,7 +8,7 @@
     position: relative;
     top: -190px;
     margin-bottom: -190px;
-    margin-right: -38px;
+    /* margin-right: -38px; */
     grid-template-columns: 400px auto;
     align-items: center;
     overflow: hidden;

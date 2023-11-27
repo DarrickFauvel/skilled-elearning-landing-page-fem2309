@@ -47,9 +47,6 @@
     width: 56px;
   }
 
-  & h3 {
-  }
-
   & p {
     margin-top: 16px;
   }
@@ -57,12 +54,12 @@
   & a {
     display: inline-block;
     margin-top: 24px;
+    padding-block: 0.5em;
+    border-radius: 0.5em;
   }
 
   &:hover a {
     background-color: var(--cname-almost-white);
     padding-inline: 0.75em;
-    padding-block: 0.5em;
-    border-radius: 0.5em;
   }
 }

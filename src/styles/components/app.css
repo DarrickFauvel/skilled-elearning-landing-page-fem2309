@@ -2,14 +2,19 @@
 .app-container {
   position: relative;
   z-index: 1;
-  padding: 16px;
   background-color: var(--cname-almost-white);
+}
+
+.container {
+  margin-inline: auto;
+  max-width: 343px;
+  /* outline: 1px solid red; */
 
   @media (min-width: 768px) {
-    padding-inline: 38px;
+    max-width: 689px;
   }
 
   @media (min-width: 1440px) {
-    padding-inline: 165px;
+    max-width: 1110px;
   }
 }
